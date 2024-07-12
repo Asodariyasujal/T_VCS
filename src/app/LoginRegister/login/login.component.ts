@@ -33,6 +33,7 @@ export class LoginComponent implements OnInit {
     return this.loginForm.get('password') as FormControl;
   }
   OnSubmit(){
+    // window.location.href='http://localhost:4200/form';
       this.formValid = true;
       if(this.loginForm.valid)
       {

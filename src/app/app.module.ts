@@ -38,6 +38,7 @@ import { SearchPipe } from './Pipe/search.pipe';
 import { NgxStarRatingModule } from 'ngx-star-rating';
 import { UiSwitchModule } from 'ngx-toggle-switch';
 import { DatePipe } from '@angular/common';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { DatePipe } from '@angular/common';
     PrivacyPolicyComponent,
     VolunteeringTimesheetComponent,
     SearchPipe,
+    FormComponent,
     
 
   ],

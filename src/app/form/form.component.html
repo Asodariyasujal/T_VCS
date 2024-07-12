@@ -1,0 +1,38 @@
+<form (ngSubmit)="onSubmit()" #missionForm="ngForm">
+   
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" ngModel required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" ngModel required>
+    </div>
+    <div>
+      <label for="missionType">Mission Type:</label>
+      <select id="missionType" name="missionType" ngModel required>
+        <option value="type1">Type 1</option>
+        <option value="type2">Type 2</option>
+        <option value="type3">Type 3</option>
+      </select>
+    </div>
+    <div>
+      <label for="description">Description:</label>
+      <input type="text" id="description" name="description" ngModel>
+    </div>
+    <div>
+      <label for="textArea">Text Area:</label>
+      <textarea id="textArea" name="textArea" ngModel></textarea>
+    </div>
+    <div>
+      <label for="agreement">Agree to terms:</label>
+      <input type="checkbox" id="agreement" name="agreement" ngModel>
+    </div>
+    <button type="submit">Submit</button>
+    <button type="button" (click)="clearForm(missionForm)">Clear</button>
+  </form>
+  
+   <div class="backhome">
+    back to the our home page
+   </div>
+   <button type="button" id="btnhome" (click)="onbacktohome">back to home</button>

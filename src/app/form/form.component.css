@@ -1,0 +1,73 @@
+/* Basic form styles */
+
+
+body{
+    background-color: black;
+    background-image: url('https://media.istockphoto.com/id/1335845017/photo/pink-blooming-lotus-close-up.jpg?s=2048x2048&w=is&k=20&c=zOc_R464oXkyu-nVcwaR22f6Ot7o2idIP74cFAPtN4A=');
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button[type="button"] {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  .backhome{
+    padding-left: 583px;
+  }
+
+#btnhome{
+    
+    padding-left: 15px;
+    margin-left: 612px;
+}
+
